@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		185BF9C82C253ED700919152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BF9C72C253ED700919152 /* AppDelegate.swift */; };
 		185BF9CA2C253ED700919152 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BF9C92C253ED700919152 /* SceneDelegate.swift */; };
-		185BF9CC2C253ED700919152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BF9CB2C253ED700919152 /* ViewController.swift */; };
 		185BF9CF2C253ED700919152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185BF9CD2C253ED700919152 /* Main.storyboard */; };
 		185BF9D12C253ED900919152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185BF9D02C253ED900919152 /* Assets.xcassets */; };
 		185BF9D42C253ED900919152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185BF9D22C253ED900919152 /* LaunchScreen.storyboard */; };
+		185BF9E82C255B9700919152 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BF9E72C255B9700919152 /* Product.swift */; };
+		185BF9EA2C255E3A00919152 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BF9E92C255E3A00919152 /* APIManager.swift */; };
+		185BF9EC2C255ECB00919152 /* Constant+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BF9EB2C255ECB00919152 /* Constant+API.swift */; };
+		185BF9EE2C25627E00919152 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BF9ED2C25627E00919152 /* ProductListViewController.swift */; };
+		185BF9F02C25788300919152 /* ProfuctViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BF9EF2C25788300919152 /* ProfuctViewModel.swift */; };
+		185BF9F32C257E5E00919152 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BF9F12C257E5E00919152 /* ProductCell.swift */; };
+		185BF9F42C257E5E00919152 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185BF9F22C257E5E00919152 /* ProductCell.xib */; };
+		185BF9F92C25863B00919152 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BF9F82C25863B00919152 /* UIImageView+Extension.swift */; };
+		185BF9FC2C258A4A00919152 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 185BF9FB2C258A4A00919152 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		185BF9C42C253ED700919152 /* NeoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185BF9C72C253ED700919152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		185BF9C92C253ED700919152 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		185BF9CB2C253ED700919152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		185BF9CE2C253ED700919152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		185BF9D02C253ED900919152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185BF9D32C253ED900919152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185BF9D52C253ED900919152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185BF9E72C255B9700919152 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		185BF9E92C255E3A00919152 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		185BF9EB2C255ECB00919152 /* Constant+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constant+API.swift"; sourceTree = "<group>"; };
+		185BF9ED2C25627E00919152 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		185BF9EF2C25788300919152 /* ProfuctViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfuctViewModel.swift; sourceTree = "<group>"; };
+		185BF9F12C257E5E00919152 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		185BF9F22C257E5E00919152 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		185BF9F82C25863B00919152 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185BF9FC2C258A4A00919152 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,118 @@
 		185BF9C62C253ED700919152 /* NeoDemo */ = {
 			isa = PBXGroup;
 			children = (
-				185BF9C72C253ED700919152 /* AppDelegate.swift */,
-				185BF9C92C253ED700919152 /* SceneDelegate.swift */,
-				185BF9CB2C253ED700919152 /* ViewController.swift */,
-				185BF9CD2C253ED700919152 /* Main.storyboard */,
-				185BF9D02C253ED900919152 /* Assets.xcassets */,
-				185BF9D22C253ED900919152 /* LaunchScreen.storyboard */,
+				185BF9E12C255A4E00919152 /* Application */,
+				185BF9E02C255A4A00919152 /* Constant */,
+				185BF9DF2C255A4600919152 /* Extension */,
+				185BF9DE2C255A4200919152 /* Helper */,
+				185BF9DD2C255A3F00919152 /* Screens */,
+				185BF9DC2C255A3B00919152 /* Storyboard */,
+				185BF9DB2C255A3700919152 /* Controller */,
+				185BF9E22C255A8D00919152 /* Resources */,
 				185BF9D52C253ED900919152 /* Info.plist */,
 			);
 			path = NeoDemo;
+			sourceTree = "<group>";
+		};
+		185BF9DB2C255A3700919152 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9ED2C25627E00919152 /* ProductListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185BF9DC2C255A3B00919152 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9CD2C253ED700919152 /* Main.storyboard */,
+				185BF9D22C253ED900919152 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		185BF9DD2C255A3F00919152 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9E32C255ABB00919152 /* Product */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		185BF9DE2C255A4200919152 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9E92C255E3A00919152 /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		185BF9DF2C255A4600919152 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9F82C25863B00919152 /* UIImageView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		185BF9E02C255A4A00919152 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9EB2C255ECB00919152 /* Constant+API.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		185BF9E12C255A4E00919152 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9C72C253ED700919152 /* AppDelegate.swift */,
+				185BF9C92C253ED700919152 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		185BF9E22C255A8D00919152 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9D02C253ED900919152 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		185BF9E32C255ABB00919152 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9E42C255AC500919152 /* Model */,
+				185BF9E52C255ACC00919152 /* View */,
+				185BF9E62C255AD200919152 /* View Model */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		185BF9E42C255AC500919152 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9E72C255B9700919152 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185BF9E52C255ACC00919152 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9F12C257E5E00919152 /* ProductCell.swift */,
+				185BF9F22C257E5E00919152 /* ProductCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185BF9E62C255AD200919152 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				185BF9EF2C25788300919152 /* ProfuctViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +202,9 @@
 			dependencies = (
 			);
 			name = NeoDemo;
+			packageProductDependencies = (
+				185BF9FB2C258A4A00919152 /* Kingfisher */,
+			);
 			productName = NeoDemo;
 			productReference = 185BF9C42C253ED700919152 /* NeoDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +233,9 @@
 				Base,
 			);
 			mainGroup = 185BF9BB2C253ED700919152;
+			packageReferences = (
+				185BF9FA2C258A4A00919152 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 185BF9C52C253ED700919152 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				185BF9D42C253ED900919152 /* LaunchScreen.storyboard in Resources */,
+				185BF9F42C257E5E00919152 /* ProductCell.xib in Resources */,
 				185BF9D12C253ED900919152 /* Assets.xcassets in Resources */,
 				185BF9CF2C253ED700919152 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +264,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185BF9CC2C253ED700919152 /* ViewController.swift in Sources */,
+				185BF9EA2C255E3A00919152 /* APIManager.swift in Sources */,
 				185BF9C82C253ED700919152 /* AppDelegate.swift in Sources */,
 				185BF9CA2C253ED700919152 /* SceneDelegate.swift in Sources */,
+				185BF9F92C25863B00919152 /* UIImageView+Extension.swift in Sources */,
+				185BF9EC2C255ECB00919152 /* Constant+API.swift in Sources */,
+				185BF9F02C25788300919152 /* ProfuctViewModel.swift in Sources */,
+				185BF9F32C257E5E00919152 /* ProductCell.swift in Sources */,
+				185BF9EE2C25627E00919152 /* ProductListViewController.swift in Sources */,
+				185BF9E82C255B9700919152 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +488,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		185BF9FA2C258A4A00919152 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		185BF9FB2C258A4A00919152 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 185BF9FA2C258A4A00919152 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 185BF9BC2C253ED700919152 /* Project object */;
 }
